@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/set-matrix-zeroes/?envType=study-plan-v2&envId=top-interview-150
+package Matrix//https://leetcode.com/problems/set-matrix-zeroes/?envType=study-plan-v2&envId=top-interview-150
 
 fun setZeroes(matrix: Array<IntArray>): Unit {
     val rows = matrix.size

@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/remove-element/
+package ArrayOrString//https://leetcode.com/problems/remove-element/
 
 fun removeElement(nums: IntArray, `val`: Int): Int{
     var k = 0

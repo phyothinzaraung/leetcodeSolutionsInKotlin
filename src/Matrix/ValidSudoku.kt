@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/valid-sudoku/description/?envType=study-plan-v2&envId=top-interview-150
+package Matrix//https://leetcode.com/problems/valid-sudoku/description/?envType=study-plan-v2&envId=top-interview-150
 
 fun isValidSudoku(board: Array<CharArray>): Boolean {
     val rows = Array(9){ mutableSetOf<Char>() }

@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/spiral-matrix/?envType=study-plan-v2&envId=top-interview-150
+package Matrix//https://leetcode.com/problems/spiral-matrix/?envType=study-plan-v2&envId=top-interview-150
 
 fun spiralOrder(matrix: Array<IntArray>): List<Int> {
     val output = mutableListOf<Int>()
@@ -38,11 +38,13 @@ fun spiralOrder(matrix: Array<IntArray>): List<Int> {
 
 fun main() {
 
-    println(spiralOrder(
+    println(
+        spiralOrder(
         arrayOf(
         intArrayOf(1,2,3),
         intArrayOf(4,5,6),
         intArrayOf(7,8,9)
     )
-    ))
+    )
+    )
 }

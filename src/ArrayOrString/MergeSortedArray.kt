@@ -1,4 +1,4 @@
-//https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
+package ArrayOrString//https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
 
 fun merge(nums1: IntArray, m: Int, nums2: IntArray, n: Int): Unit{
     var p1 = m - 1
